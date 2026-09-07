@@ -7,13 +7,13 @@ from sklearn.metrics.pairwise import euclidean_distances
 # Load saved files
 # -----------------------------
 
-df = pd.read_csv("C:/Users/Yashwanth/ML_Project/data/spotify_processed.csv", index_col=0)
+df = pd.read_csv("data/spotify_processed.csv", index_col=0)
 
-X_scaled_df = pd.read_csv("C:/Users/Yashwanth/ML_Project/data/X_scaled.csv", index_col=0)
+X_scaled_df = pd.read_csv("data/X_scaled.csv", index_col=0)
 
-kmeans = joblib.load("C:/Users/Yashwanth/ML_Project/models/kmeans_model.pkl")
+kmeans = joblib.load("models/kmeans_model.pkl")
 
-scaler = joblib.load("C:/Users/Yashwanth/ML_Project/models/scaler.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 
 # -----------------------------
