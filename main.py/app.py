@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from recommender import recommend_similar_songs
 
-df = pd.read_csv("C:\\Users\\Yashwanth\\ML_Project\\data\\spotify_processed.csv", index_col=0)
+df = pd.read_csv("data\\spotify_processed.csv", index_col=0)
 
 st.set_page_config(
     page_title="Spotify Music Recommendation System",
